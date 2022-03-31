@@ -9,7 +9,6 @@ parser.add_argument('--port', type=str)
 parser.add_argument('--file', type=str)
 res = parser.parse_args()
 
-
 app = Flask(__name__)
 
 
